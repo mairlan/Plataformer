@@ -23,6 +23,7 @@
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"texto","order":9,"path":"folders/Objects/texto.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_enemy_walk","order":2,"path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},
@@ -33,6 +34,7 @@
     {"name":"tl_fundo","order":1,"path":"tilesets/tl_fundo/tl_fundo.yy",},
     {"name":"spr_player_jump","order":6,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"spr_player_fall","order":7,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"obj_kill","order":3,"path":"objects/obj_kill/obj_kill.yy",},
     {"name":"spr_ground","order":3,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"spr_inimigo_walk","order":2,"path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},
