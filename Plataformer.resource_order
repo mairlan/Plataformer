@@ -24,6 +24,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_enemy_walk","order":2,"path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},
     {"name":"spr_player_walk","order":4,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"obj_key","order":5,"path":"objects/obj_key/obj_key.yy",},
     {"name":"spr_enemy_hit","order":1,"path":"sprites/spr_enemy_hit/spr_enemy_hit.yy",},
     {"name":"obj_ground","order":1,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"bg","order":8,"path":"sprites/bg/bg.yy",},
@@ -35,7 +36,9 @@
     {"name":"spr_inimigo_walk","order":2,"path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},
     {"name":"obj_entidade","order":3,"path":"objects/obj_entidade/obj_entidade.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"obj_porta","order":6,"path":"objects/obj_porta/obj_porta.yy",},
     {"name":"spr_enemy_attack_2","order":1,"path":"sprites/spr_enemy_attack_2/spr_enemy_attack_2.yy",},
+    {"name":"spr_key","order":13,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_inimigo2","order":4,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
     {"name":"spr_life","order":5,"path":"sprites/spr_life/spr_life.yy",},

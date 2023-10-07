@@ -54,8 +54,12 @@ if(_chao){
 	}
 }
 
+//checando se esta dentro da sala
+if (keyboard_check(ord("K"))){
+	game_restart();
+}
 
-
+//pegando a chave
 
 
 

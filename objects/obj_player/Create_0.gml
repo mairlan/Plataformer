@@ -1,4 +1,4 @@
-life = 4 // vida
+life = 3 // vida
 spd = 4; // velocidade
 hspd = 0; // velocidade horizontal
 vspd = 0; // velocidade vertical
@@ -11,4 +11,7 @@ inputs = {
 	jump: vk_space,
 	dash: vk_shift
 	
+}
+inventory = {
+	key: false
 }

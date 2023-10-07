@@ -12,8 +12,6 @@ if(_chao){
 	if(time_walk <= 0){
 		walking = choose(true, false);
 		
-		show_debug_message(walking);
-		
 		// escolhendo a direção
 		if(walking)
 		{
