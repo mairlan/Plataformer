@@ -15,11 +15,11 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"inimigos","order":11,"path":"folders/Sprites/inimigos.yy",},
     {"name":"inimigo 1","order":2,"path":"folders/Sprites/inimigos/inimigo 1.yy",},
+    {"name":"inimigo 2","order":3,"path":"folders/Sprites/inimigos/inimigo 2.yy",},
     {"name":"level","order":12,"path":"folders/Sprites/level.yy",},
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"inimigo 2","order":3,"path":"folders/Sprites/inimigos/inimigo 2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_enemy_walk","order":2,"path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},
