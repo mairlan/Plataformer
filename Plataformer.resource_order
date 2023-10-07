@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"entidades","order":7,"path":"folders/Objects/entidades.yy",},
     {"name":"Inanimados","order":8,"path":"folders/Objects/Inanimados.yy",},
+    {"name":"texto","order":9,"path":"folders/Objects/texto.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -23,7 +24,6 @@
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"texto","order":9,"path":"folders/Objects/texto.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_enemy_walk","order":2,"path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},

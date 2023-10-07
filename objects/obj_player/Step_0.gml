@@ -61,7 +61,7 @@ if (keyboard_check(ord("K"))){
 
 //pegando a chave
 if (inventory.key == 3){
-	room_next()
+	room_goto_next();
 }
 
 
