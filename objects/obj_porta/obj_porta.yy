@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Inanimados",
+    "path": "folders/Objects/Inanimados.yy",
   },
   "parentObjectId": null,
   "persistent": false,
