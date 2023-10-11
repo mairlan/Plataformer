@@ -5,6 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,8 +14,8 @@
     "path": "folders/Objects/entidades.yy",
   },
   "parentObjectId": {
-    "name": "obj_entidade",
-    "path": "objects/obj_entidade/obj_entidade.yy",
+    "name": "obj_inimigo_pai",
+    "path": "objects/obj_inimigo_pai/obj_inimigo_pai.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
