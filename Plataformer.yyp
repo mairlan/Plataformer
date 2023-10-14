@@ -40,7 +40,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_enemy_walk","path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},},
@@ -56,8 +56,8 @@
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_enemy_idle_2","path":"sprites/spr_enemy_idle_2/spr_enemy_idle_2.yy",},},
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
+    {"id":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_inimigo_walk","path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},},
@@ -78,7 +78,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
