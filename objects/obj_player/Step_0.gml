@@ -15,7 +15,7 @@ hspd = (_right - _left) * spd;
 if(_chao){
 	
 	if (_jump){
-		vspd = - vel_jump;
+		vspd = -vel_jump;
 	}
 	//se estou no chao e me movendo
 	if(hspd != 0 ){
@@ -34,6 +34,15 @@ if(_chao){
 	}else
 	{
 		sprite_index = spr_player_fall;
+		
+		//indo para baixo
+		var _inimigo = instance_place(x,y+1, obj_inimigo_pai);
+		if(_inimigo){
+			vspd = -vel_jump;
+			
+			//Avisando que acertei ele e ele toma dano
+			_inimigo.dano = true;
+		}
 	}
 	
 	// dash
@@ -60,7 +69,13 @@ if (keyboard_check(ord("K"))){
 }
 
 //pegando a chave
+if (inventory.key == 3){
+	room_goto_next();
+}
 
-
+// vidas
+if (life == 0){
+	game_restart();
+}
 
 

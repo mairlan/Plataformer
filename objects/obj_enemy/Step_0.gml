@@ -28,7 +28,7 @@ if(_chao){
 	
 	
 	//controlando a animação do inimigo
-	if(hspd != 0){
+	if(hspd != 0 and dano == false){
 		sprite_index = spr_enemy_walk;
 		image_xscale = sign(hspd)
 	}else{
@@ -54,6 +54,12 @@ if(_chao){
 	if(hspd != 0){
 		image_xscale = sign(hspd);
 	}
+}
+
+// checando se estou tomando dano
+if(dano){
+	sprite_index = spr_enemy_hit;
+	hspd = 0;
 }
 
 
