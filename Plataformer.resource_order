@@ -33,21 +33,30 @@
     {"name":"bg","order":8,"path":"sprites/bg/bg.yy",},
     {"name":"tl_fundo","order":1,"path":"tilesets/tl_fundo/tl_fundo.yy",},
     {"name":"spr_player_jump","order":6,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+<<<<<<< HEAD
+=======
     {"name":"spr_player_fall","order":7,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
     {"name":"TEST_ROOM","order":1,"path":"rooms/TEST_ROOM/TEST_ROOM.yy",},
+>>>>>>> origin/main
     {"name":"obj_kill","order":3,"path":"objects/obj_kill/obj_kill.yy",},
     {"name":"spr_ground","order":3,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"spr_inimigo_walk","order":2,"path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},
     {"name":"obj_entidade","order":1,"path":"objects/obj_entidade/obj_entidade.yy",},
     {"name":"spr_kill_entidade","order":2,"path":"sprites/spr_kill_entidade/spr_kill_entidade.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"Sprite18","order":1,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"obj_porta","order":2,"path":"objects/obj_porta/obj_porta.yy",},
     {"name":"spr_enemy_attack_2","order":1,"path":"sprites/spr_enemy_attack_2/spr_enemy_attack_2.yy",},
     {"name":"spr_key","order":1,"path":"sprites/spr_key/spr_key.yy",},
+<<<<<<< HEAD
+    {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
+=======
     {"name":"spr_enemy_death","order":3,"path":"sprites/spr_enemy_death/spr_enemy_death.yy",},
+>>>>>>> origin/main
     {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_inimigo_pai","order":4,"path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},
     {"name":"obj_inimigo2","order":2,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
+    {"name":"spr_player_fall","order":8,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
     {"name":"spr_life","order":5,"path":"sprites/spr_life/spr_life.yy",},
   ],
 }
