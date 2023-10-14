@@ -7,9 +7,27 @@ _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
 
-hspd = (_right - _left) * spd;
+//so posso me mover se o timer esta zerado
+if(timer_dano <= 0){
+	hspd = (_right - _left) * spd;
+}
+// porta colisão
+var _porta = place_meeting(x,y, obj_porta);
 
+if(inventory.key == 1){
+	instance_destroy(obj_porta);
+}
 
+//Colisão com a Porta
+if (place_meeting(x +hspd, y, obj_porta))
+{
+while(!place_meeting(x+ sign(hspd), y, obj_porta))
+{
+x = x +sign(hspd);
+}
+hspd = 0;
+}
+x = x + hspd
 
 //pulando
 if(_chao){
@@ -36,12 +54,16 @@ if(_chao){
 		sprite_index = spr_player_fall;
 		
 		//indo para baixo
-		var _inimigo = instance_place(x,y+1, obj_inimigo_pai);
+		var _inimigo = instance_place(x,y+5, obj_inimigo_pai);
 		if(_inimigo){
-			vspd = -vel_jump;
+			dano = false;
+			//se o inimigo não ta morto
+			if(_inimigo.morto == false){
+				vspd = -vel_jump;
 			
-			//Avisando que acertei ele e ele toma dano
-			_inimigo.dano = true;
+				//Avisando que acertei ele e ele toma dano
+				_inimigo.dano = true;
+			}
 		}
 	}
 	
@@ -68,14 +90,37 @@ if (keyboard_check(ord("K"))){
 	game_restart();
 }
 
-//pegando a chave
-if (inventory.key == 3){
-	room_goto_next();
-}
 
-// vidas
-if (life == 0){
+if(dano == true){
+	sprite_index = spr_enemy_hit;
+	life--;
+}
+if(life == 0){
 	game_restart();
 }
+// se o timer do dano é maior q zero
+if(timer_dano > 0){
+	timer_dano--;
+}else{
+	//acabou o timer do dano
+	dano = false;
+}
+if(inv_timer > 0){
+	inv_timer--;
+	
+	image_alpha = .5;
+}else {
+	image_alpha = 1;
+}
+//tomando dano
+var _inimigo = instance_place(x, y, obj_inimigo_pai);
 
+if (_inimigo && inv_timer <= 0){
 
+	if(_inimigo.morto == false && _inimigo.dano == false){
+		dano = true;
+		//dando o valor do time dano
+		timer_dano = tempo_dano;
+		inv_timer  = inv_tempo;
+	}
+}

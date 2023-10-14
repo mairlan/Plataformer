@@ -1,6 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+if(morto){
+	sprite_index = spr_dead;
+	
+	//sumindo se acabou a animação
+	if(image_speed <= 0){
+		image_alpha -= 0.01;
+	}
+	//se eu sumir totalmente, eu me destruo
+	if(image_alpha = 0){
+		instance_destroy();
+	}
+	exit;
+}
+
 //chacando se esta no chao
 var _chao = place_meeting(x, y+1, obj_ground);
 
@@ -57,7 +72,7 @@ if(_chao){
 }
 
 // checando se estou tomando dano
-if(dano){
+if(dano && morto == false){
 	sprite_index = spr_enemy_hit;
 	hspd = 0;
 }
