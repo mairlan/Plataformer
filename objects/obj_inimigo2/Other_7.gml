@@ -5,6 +5,7 @@
 if(sprite_index == spr_enemy_hit){
 	//trocando a prite pela de morte
 	morto = true;
+	show_debug_message(morto)
 }
 if(sprite_index = spr_dead){
 	image_speed = 0;
