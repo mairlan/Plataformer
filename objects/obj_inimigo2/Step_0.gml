@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(morto){
+if(morto == true){
 	sprite_index = spr_dead;
 	
 	//sumindo se acabou a animação
@@ -26,8 +26,6 @@ if(_chao){
 	if(time_walk <= 0){
 		walking = choose(true, false);
 		
-		show_debug_message(walking);
-		
 		// escolhendo a direção
 		if(walking)
 		{
@@ -44,7 +42,7 @@ if(_chao){
 	
 	
 	//controlando a animação do inimigo
-	if(hspd != 0){
+	if(hspd != 0 and dano == false){
 		sprite_index = spr_inimigo_walk;
 		image_xscale = sign(hspd)
 	}else{
