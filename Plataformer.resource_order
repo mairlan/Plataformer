@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"spr_next","order":1,"path":"sprites/spr_next/spr_next.yy",},
+    {"name":"obj_next","order":1,"path":"objects/obj_next/obj_next.yy",},
     {"name":"spr_dead","order":1,"path":"sprites/spr_dead/spr_dead.yy",},
   ],
 }
