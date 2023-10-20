@@ -12,7 +12,7 @@ if(timer_dano <= 0){
 	hspd = (_right - _left) * spd;
 }
 // porta colisão
-var _porta = place_meeting(x,y, obj_porta);
+var _p orta = place_meeting(x,y, obj_porta);
 
 if(inventory.key == 1){
 	instance_destroy(obj_porta);
@@ -92,7 +92,7 @@ if (keyboard_check(ord("K"))){
 
 
 if(dano == true){
-	sprite_index = spr_enemy_hit;
+	sprite_index = spr_player_dano;
 	life--;
 }
 if(life == 0){

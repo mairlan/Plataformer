@@ -1,6 +1,18 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Sprite29","order":2,"path":"sprites/Sprite29/Sprite29.yy",},
+    {"name":"Sprite24","order":3,"path":"sprites/Sprite24/Sprite24.yy",},
+    {"name":"Sprite22","order":1,"path":"sprites/Sprite22/Sprite22.yy",},
+    {"name":"Sprite21","order":1,"path":"sprites/Sprite21/Sprite21.yy",},
+    {"name":"TileSet4","order":1,"path":"tilesets/TileSet4/TileSet4.yy",},
+    {"name":"Sprite30","order":5,"path":"sprites/Sprite30/Sprite30.yy",},
+    {"name":"Sprite2627","order":2,"path":"sprites/Sprite2627/Sprite2627.yy",},
+    {"name":"spr_player_dano","order":1,"path":"sprites/spr_player_dano/spr_player_dano.yy",},
+    {"name":"Sprite26","order":1,"path":"sprites/Sprite26/Sprite26.yy",},
+    {"name":"Sprite23","order":2,"path":"sprites/Sprite23/Sprite23.yy",},
+    {"name":"obst","order":1,"path":"sprites/obst/obst.yy",},
     {"name":"spr_dead","order":1,"path":"sprites/spr_dead/spr_dead.yy",},
+    {"name":"Sprite25","order":4,"path":"sprites/Sprite25/Sprite25.yy",},
   ],
 }
