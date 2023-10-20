@@ -73,6 +73,7 @@
     {"name":"inst_785C5B3B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3B1D232C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_314B855D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7E3BCB99","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -152,6 +153,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_448756C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},"properties":[],"rotation":0.0,"scaleX":32.0,"scaleY":1.5,"x":0.0,"y":928.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DF1FCF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1440.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_314B855D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":16.0,"x":2048.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E3BCB99","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_next","path":"objects/obj_next/obj_next.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":640.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"inimigos","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E4155F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[
