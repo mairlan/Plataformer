@@ -66,6 +66,7 @@
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_enemy_idle_2","path":"sprites/spr_enemy_idle_2/spr_enemy_idle_2.yy",},},
+    {"id":{"name":"spr_next","path":"sprites/spr_next/spr_next.yy",},},
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"obj_next","path":"objects/obj_next/obj_next.yy",},},

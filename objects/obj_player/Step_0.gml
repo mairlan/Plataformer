@@ -127,18 +127,7 @@ if (_inimigo && inv_timer <= 0){
 	}
 }
 
-
-// proxima fase
-if(place_meeting(x, y, obj_next) && _next){
-	room_goto_next();
-}
-
-
-
-
-
 //passando de fase
 if (place_meeting(x,y, obj_next) && _next){
 	room_goto_next();
 }
-
