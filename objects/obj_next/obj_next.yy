@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_next",
-    "path": "sprites/spr_next/spr_next.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
