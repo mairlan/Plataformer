@@ -7,6 +7,10 @@ _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
 _next = keyboard_check(inputs.next);
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/leous
 
 //so posso me mover se o timer esta zerado
 if(timer_dano <= 0){
@@ -93,7 +97,7 @@ if (keyboard_check(ord("K"))){
 
 
 if(dano == true){
-	sprite_index = spr_enemy_hit;
+	sprite_index = spr_player_dano;
 	life--;
 }
 if(life == 0){
@@ -126,6 +130,7 @@ if (_inimigo && inv_timer <= 0){
 	}
 }
 
+<<<<<<< HEAD
 
 // proxima fase
 if(place_meeting(x, y, obj_next) && _next){
@@ -135,3 +140,9 @@ if(place_meeting(x, y, obj_next) && _next){
 
 
 
+=======
+//passando de fase
+if (place_meeting(x,y, obj_next) && _next){
+	room_goto_next();
+}
+>>>>>>> origin/leous

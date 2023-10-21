@@ -3,7 +3,7 @@
 
 draw_self()
 
-draw_text(x, y + 20, life)
+draw_text(x+ -10 , y + -40, life)
 
 
 

@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "bg",
-    "path": "sprites/bg/bg.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",

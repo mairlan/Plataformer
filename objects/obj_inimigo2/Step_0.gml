@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(morto == true){
-	sprite_index = spr_dead;
+	sprite_index = spr_inimigo2_morte;
 	
 	//sumindo se acabou a animação
 	if(image_speed <= 0){
@@ -72,6 +72,6 @@ if(_chao){
 
 // checando se estou tomando dano
 if(dano && morto == false){
-	sprite_index = spr_enemy_hit;
+	sprite_index = spr_inimigo2_hit;
 	hspd = 0;
 }
