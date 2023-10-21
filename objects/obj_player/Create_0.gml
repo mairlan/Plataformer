@@ -18,7 +18,8 @@ inputs = {
 	left: ord("A"),
 	right: ord("D"),
 	jump: vk_space,
-	dash: vk_shift
+	dash: vk_shift,
+	next: ord("W")
 	
 }
 inventory = {

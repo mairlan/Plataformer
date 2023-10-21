@@ -6,13 +6,15 @@ _left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
+_next = keyboard_check(inputs.next);
+
 
 //so posso me mover se o timer esta zerado
 if(timer_dano <= 0){
 	hspd = (_right - _left) * spd;
 }
 // porta colisão
-var _p orta = place_meeting(x,y, obj_porta);
+var _porta = place_meeting(x,y, obj_porta);
 
 if(inventory.key == 1){
 	instance_destroy(obj_porta);
@@ -123,4 +125,9 @@ if (_inimigo && inv_timer <= 0){
 		timer_dano = tempo_dano;
 		inv_timer  = inv_tempo;
 	}
+}
+
+//passando de fase
+if (place_meeting(x,y, obj_next) && _next){
+	room_goto_next();
 }
