@@ -10,7 +10,7 @@
     {"name":"Sprite38","order":5,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"Sprite22","order":3,"path":"sprites/Sprite22/Sprite22.yy",},
     {"name":"Sprite21","order":2,"path":"sprites/Sprite21/Sprite21.yy",},
-    {"name":"obj_cerra","order":5,"path":"objects/obj_cerra/obj_cerra.yy",},
+    {"name":"obj_serra","order":5,"path":"objects/obj_serra/obj_serra.yy",},
     {"name":"Sprite37","order":15,"path":"sprites/Sprite37/Sprite37.yy",},
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"spr_enemy_idle_2","order":2,"path":"sprites/spr_enemy_idle_2/spr_enemy_idle_2.yy",},

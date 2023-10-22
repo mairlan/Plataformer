@@ -59,7 +59,7 @@
     {"id":{"name":"spr_enemy_hit","path":"sprites/spr_enemy_hit/spr_enemy_hit.yy",},},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
-    {"id":{"name":"obj_cerra","path":"objects/obj_cerra/obj_cerra.yy",},},
+    {"id":{"name":"obj_serra","path":"objects/obj_serra/obj_serra.yy",},},
     {"id":{"name":"Placeholder","path":"sprites/Placeholder/Placeholder.yy",},},
     {"id":{"name":"tl_fundo","path":"tilesets/tl_fundo/tl_fundo.yy",},},
     {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},

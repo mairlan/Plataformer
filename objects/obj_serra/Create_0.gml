@@ -6,4 +6,4 @@ damage = 10; // Ajuste o valor do dano conforme necessário
 spd = 4;
 hspd = 1;
 
-
+lados = true;
