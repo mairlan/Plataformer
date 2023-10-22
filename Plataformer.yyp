@@ -99,6 +99,7 @@
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
     {"id":{"name":"spr_enemy_death","path":"sprites/spr_enemy_death/spr_enemy_death.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_serrav","path":"objects/obj_serrav/obj_serrav.yy",},},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"hjhjkh","path":"sprites/hjhjkh/hjhjkh.yy",},},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},},
@@ -107,8 +108,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

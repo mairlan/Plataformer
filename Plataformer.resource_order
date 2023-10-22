@@ -36,6 +36,7 @@
     {"name":"spr_dead","order":1,"path":"sprites/spr_dead/spr_dead.yy",},
     {"name":"Sprite25","order":9,"path":"sprites/Sprite25/Sprite25.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_serrav","order":6,"path":"objects/obj_serrav/obj_serrav.yy",},
     {"name":"hjhjkh","order":13,"path":"sprites/hjhjkh/hjhjkh.yy",},
     {"name":"obj_inimigo2","order":2,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
   ],
