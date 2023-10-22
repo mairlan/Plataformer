@@ -2,6 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"spr_parede","order":3,"path":"sprites/spr_parede/spr_parede.yy",},
+    {"name":"obj_inv_item","order":3,"path":"objects/obj_inv_item/obj_inv_item.yy",},
     {"name":"Sprite29","order":11,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"spr_inimigo2_hit","order":5,"path":"sprites/spr_inimigo2_hit/spr_inimigo2_hit.yy",},
     {"name":"Sprite24","order":6,"path":"sprites/Sprite24/Sprite24.yy",},
@@ -30,6 +31,7 @@
     {"name":"spr_cerra","order":2,"path":"sprites/spr_cerra/spr_cerra.yy",},
     {"name":"Sprite34","order":12,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"spr_inimigo2_morte","order":4,"path":"sprites/spr_inimigo2_morte/spr_inimigo2_morte.yy",},
+    {"name":"obj_blocked","order":4,"path":"objects/obj_blocked/obj_blocked.yy",},
     {"name":"Sprite23","order":5,"path":"sprites/Sprite23/Sprite23.yy",},
     {"name":"obj_enemy","order":3,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obst","order":1,"path":"sprites/obst/obst.yy",},

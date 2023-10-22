@@ -23,5 +23,6 @@ inputs = {
 	
 }
 inventory = {
-	key: false
+	key: false,
+	item: false
 }
