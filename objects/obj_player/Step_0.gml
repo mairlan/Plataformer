@@ -1,14 +1,14 @@
+#region controles
 // controlando o Player
 var _chao = place_meeting(x,y + 1, obj_ground);
 var _left, _right, _jump;
-
-_left = keyboard_check(inputs.left); 
+_left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
 _next = keyboard_check(inputs.next);
 
-
+#endregion
 //so posso me mover se o timer esta zerado
 if(timer_dano <= 0){
 	hspd = (_right - _left) * spd;
@@ -16,12 +16,12 @@ if(timer_dano <= 0){
 // porta colisão
 var _porta = place_meeting(x,y, obj_porta);
 
-if(inventory.key == true){
-	instance_destroy(obj_porta);
-}
+
 if(inventory.item == true){
 	instance_destroy(obj_blocked);
 }
+
+#region porta
 //Colisão com a Porta
 if (place_meeting(x +hspd, y, obj_porta))
 {
@@ -33,7 +33,19 @@ hspd = 0;
 }
 x = x + hspd
 
+if(inventory.key == true){
+	instance_destroy(obj_porta);
+}
+#endregion
+#region PULO
 //pulando
+//ELEVADOR PULO
+var _elev = place_meeting(x, y +1,obj_elevator);
+if(_elev){
+	if (_jump){
+		vspd = -vel_jump;
+	}
+}
 if(_chao){
 	
 	if (_jump){
@@ -63,14 +75,14 @@ if(_chao){
 			dano = false;
 			//se o inimigo não ta morto
 			if(_inimigo.morto == false){
-				vspd = -vel_jump;
+				vspd = vel_jump;
 			
 				//Avisando que acertei ele e ele toma dano
 				_inimigo.dano = true;
 			}
 		}
-	}
-	
+}
+#endregion
 	// dash
 	if(_dash){
 		if(sign(hspd)){
