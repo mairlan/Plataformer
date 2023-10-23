@@ -1,8 +1,7 @@
-// controlando o Player
+ // controlando o Player
 var _chao = place_meeting(x,y + 1, obj_ground);
 var _left, _right, _jump;
-
-_left = keyboard_check(inputs.left); 
+_left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
@@ -63,7 +62,7 @@ if(_chao){
 			dano = false;
 			//se o inimigo não ta morto
 			if(_inimigo.morto == false){
-				vspd = -vel_jump;
+				vspd = vel_jump;
 			
 				//Avisando que acertei ele e ele toma dano
 				_inimigo.dano = true;
