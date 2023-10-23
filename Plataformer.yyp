@@ -43,6 +43,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"obj_elev_parede","path":"objects/obj_elev_parede/obj_elev_parede.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_enemy_walk","path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},},
     {"id":{"name":"obj_inv_item","path":"objects/obj_inv_item/obj_inv_item.yy",},},

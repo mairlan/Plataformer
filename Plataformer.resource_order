@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_elev_parede","order":9,"path":"objects/obj_elev_parede/obj_elev_parede.yy",},
     {"name":"spr_parede","order":3,"path":"sprites/spr_parede/spr_parede.yy",},
     {"name":"obj_inv_item","order":6,"path":"objects/obj_inv_item/obj_inv_item.yy",},
     {"name":"Sprite29","order":11,"path":"sprites/Sprite29/Sprite29.yy",},
