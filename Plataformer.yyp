@@ -45,6 +45,7 @@
   "resources": [
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_enemy_walk","path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},},
+    {"id":{"name":"obj_inv_item","path":"objects/obj_inv_item/obj_inv_item.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_inimigo2_hit","path":"sprites/spr_inimigo2_hit/spr_inimigo2_hit.yy",},},
@@ -91,6 +92,7 @@
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
     {"id":{"name":"spr_inimigo2_morte","path":"sprites/spr_inimigo2_morte/spr_inimigo2_morte.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
+    {"id":{"name":"obj_blocked","path":"objects/obj_blocked/obj_blocked.yy",},},
     {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -99,6 +101,7 @@
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
     {"id":{"name":"spr_enemy_death","path":"sprites/spr_enemy_death/spr_enemy_death.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_serrav","path":"objects/obj_serrav/obj_serrav.yy",},},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"hjhjkh","path":"sprites/hjhjkh/hjhjkh.yy",},},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},},

@@ -16,10 +16,12 @@ if(timer_dano <= 0){
 // porta colisão
 var _porta = place_meeting(x,y, obj_porta);
 
-if(inventory.key == 1){
+if(inventory.key == true){
 	instance_destroy(obj_porta);
 }
-
+if(inventory.item == true){
+	instance_destroy(obj_blocked);
+}
 //Colisão com a Porta
 if (place_meeting(x +hspd, y, obj_porta))
 {
@@ -91,14 +93,16 @@ if(_chao){
 if (keyboard_check(ord("K"))){
 	game_restart();
 }
-
+if (keyboard_check(ord("R"))){
+	room_restart();
+}
 
 if(dano == true){
 	sprite_index = spr_player_dano;
 	life--;
 }
-if(life == 0){
-	game_restart();
+if(life <= 0){
+	room_restart();
 }
 // se o timer do dano é maior q zero
 if(timer_dano > 0){
