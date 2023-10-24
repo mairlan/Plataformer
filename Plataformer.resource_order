@@ -41,6 +41,7 @@
     {"name":"spr_checkpoint","order":9,"path":"sprites/spr_checkpoint/spr_checkpoint.yy",},
     {"name":"spr_kill_entidade","order":1,"path":"sprites/spr_kill_entidade/spr_kill_entidade.yy",},
     {"name":"Sprite26","order":8,"path":"sprites/Sprite26/Sprite26.yy",},
+    {"name":"obj_key22","order":12,"path":"objects/obj_key22/obj_key22.yy",},
     {"name":"spr_cerra","order":4,"path":"sprites/spr_cerra/spr_cerra.yy",},
     {"name":"Sprite34","order":12,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"obj_serra_vertical_ativa","order":2,"path":"objects/obj_serra_vertical_ativa/obj_serra_vertical_ativa.yy",},

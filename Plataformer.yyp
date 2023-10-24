@@ -17,6 +17,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"entidades","folderPath":"folders/Objects/entidades.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"serra","folderPath":"folders/Objects/entidades/serra.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inanimados","folderPath":"folders/Objects/Inanimados.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"texto","folderPath":"folders/Objects/texto.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
@@ -35,7 +36,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"serra","folderPath":"folders/Objects/entidades/serra.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -95,6 +95,7 @@
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"spr_enemy_attack_2","path":"sprites/spr_enemy_attack_2/spr_enemy_attack_2.yy",},},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
+    {"id":{"name":"obj_key22","path":"objects/obj_key22/obj_key22.yy",},},
     {"id":{"name":"spr_cerra","path":"sprites/spr_cerra/spr_cerra.yy",},},
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
     {"id":{"name":"obj_serra_vertical_ativa","path":"objects/obj_serra_vertical_ativa/obj_serra_vertical_ativa.yy",},},
@@ -120,8 +121,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
