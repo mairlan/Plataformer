@@ -7,3 +7,6 @@ spd = 4;
 hspd = 1;
 
 lados = true;
+
+inicial_x = x;
+inicial_y = y;

@@ -21,3 +21,4 @@ if(global.elev == true){
 	// Mova o objeto na direção atual
 	x += spd;
 }
+

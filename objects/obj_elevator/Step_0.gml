@@ -12,4 +12,8 @@ if(global.elev == true){
 y -= spd;
 }
 
-
+// Verifica se o jogador retornou a uma coordenada específica
+if (obj_player.x == obj_checkpoint.x && obj_player.y == obj_checkpoint.y) {
+	obj_elevator.x = inicial_x;
+	obj_elevator.y = inicial_y;
+}

@@ -16,7 +16,7 @@ if(timer_dano <= 0){
 // porta colisão
 var _porta = place_meeting(x,y, obj_porta);
 
-
+//Inventario
 if(inventory.item == true){
 	instance_destroy(obj_blocked);
 }
@@ -101,7 +101,7 @@ if(_chao){
 	}
 }
 
-//checando se esta dentro da sala
+#region REINICIANDO
 if (keyboard_check(ord("K"))){
 	game_restart();
 }
@@ -117,10 +117,20 @@ if(dano == true){
 	life--;
 }
 if(life <= 0){
-	x = global.checkpoint_x;
-	y = global.checkpoint_y;
+	room_restart();
 	life = 100;
 }
+/*
+var _inicial_elev_x = obj_elevator.x;
+var _inicial_elev_y = obj_elevator.y;
+if (obj_player.x == global.checkpoint_x && obj_player.y == global.checkpoint_y){
+	_inicial_elev_x
+}
+*/
+#endregion
+
+
+
 // se o timer do dano é maior q zero
 if(timer_dano > 0){
 	timer_dano--;

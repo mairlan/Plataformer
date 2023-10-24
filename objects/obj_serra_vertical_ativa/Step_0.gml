@@ -21,3 +21,6 @@ if (place_meeting(x, y + spd, obj_parede) || place_meeting(x, y - spd, obj_pared
 // Mova o objeto na direção atual
 y += spd;
 }
+
+
+
