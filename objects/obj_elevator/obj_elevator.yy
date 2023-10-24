@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cerra",
-    "path": "sprites/spr_cerra/spr_cerra.yy",
+    "name": "spr_ground",
+    "path": "sprites/spr_ground/spr_ground.yy",
   },
   "spriteMaskId": null,
   "visible": true,

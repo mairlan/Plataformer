@@ -76,6 +76,7 @@
     {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
     {"id":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
+    {"id":{"name":"spr_cinza","path":"sprites/spr_cinza/spr_cinza.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"Sprite2627","path":"sprites/Sprite2627/Sprite2627.yy",},},
     {"id":{"name":"spr_inimigo_walk","path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},},

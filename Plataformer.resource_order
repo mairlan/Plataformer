@@ -25,6 +25,7 @@
     {"name":"obj_next","order":4,"path":"objects/obj_next/obj_next.yy",},
     {"name":"Sprite36","order":14,"path":"sprites/Sprite36/Sprite36.yy",},
     {"name":"obj_kill","order":1,"path":"objects/obj_kill/obj_kill.yy",},
+    {"name":"spr_cinza","order":4,"path":"sprites/spr_cinza/spr_cinza.yy",},
     {"name":"spr_ground","order":10,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"Sprite2627","order":7,"path":"sprites/Sprite2627/Sprite2627.yy",},
     {"name":"spr_inimigo_walk","order":1,"path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},
