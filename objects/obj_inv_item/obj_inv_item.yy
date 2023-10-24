@@ -30,5 +30,5 @@
     "path": "sprites/spr_key/spr_key.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

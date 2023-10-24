@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "entidades",
-    "path": "folders/Objects/entidades.yy",
+    "name": "serra",
+    "path": "folders/Objects/entidades/serra.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cerra",
-    "path": "sprites/spr_cerra/spr_cerra.yy",
+    "name": "spr_cinza",
+    "path": "sprites/spr_cinza/spr_cinza.yy",
   },
   "spriteMaskId": null,
   "visible": true,

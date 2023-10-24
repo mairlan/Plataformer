@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_serra",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_elev_key",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "serra",
-    "path": "folders/Objects/entidades/serra.yy",
+    "name": "Inanimados",
+    "path": "folders/Objects/Inanimados.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cinza",
-    "path": "sprites/spr_cinza/spr_cinza.yy",
+    "name": "spr_elev_key",
+    "path": "sprites/spr_elev_key/spr_elev_key.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

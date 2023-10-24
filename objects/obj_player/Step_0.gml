@@ -1,9 +1,9 @@
-#region controles
+ #region controles
 // controlando o Player
 var _chao = place_meeting(x,y + 1, obj_ground);
 var _left, _right, _jump;
 _left = keyboard_check(inputs.left);
-_right = keyboard_check(inputs.right);
+ _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 _dash = keyboard_check(inputs.dash);
 _next = keyboard_check(inputs.next);
@@ -108,13 +108,18 @@ if (keyboard_check(ord("K"))){
 if (keyboard_check(ord("R"))){
 	room_restart();
 }
-
+if (keyboard_check(ord("L"))){
+	x = global.checkpoint_x;
+	y = global.checkpoint_y;
+}
 if(dano == true){
 	sprite_index = spr_player_dano;
 	life--;
 }
 if(life <= 0){
-	room_restart();
+	x = global.checkpoint_x;
+	y = global.checkpoint_y;
+	life = 100;
 }
 // se o timer do dano é maior q zero
 if(timer_dano > 0){

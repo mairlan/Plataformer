@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_serra",
+  "name": "obj_checkpoint",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "serra",
-    "path": "folders/Objects/entidades/serra.yy",
+    "name": "Inanimados",
+    "path": "folders/Objects/Inanimados.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cinza",
-    "path": "sprites/spr_cinza/spr_cinza.yy",
+    "name": "spr_checkpoint",
+    "path": "sprites/spr_checkpoint/spr_checkpoint.yy",
   },
   "spriteMaskId": null,
   "visible": true,
