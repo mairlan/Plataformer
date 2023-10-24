@@ -108,13 +108,18 @@ if (keyboard_check(ord("K"))){
 if (keyboard_check(ord("R"))){
 	room_restart();
 }
-
+if (keyboard_check(ord("L"))){
+	x = global.checkpoint_x;
+	y = global.checkpoint_y;
+}
 if(dano == true){
 	sprite_index = spr_player_dano;
 	life--;
 }
 if(life <= 0){
-	room_restart();
+	x = global.checkpoint_x;
+	y = global.checkpoint_y;
+	life = 100;
 }
 // se o timer do dano é maior q zero
 if(timer_dano > 0){

@@ -40,17 +40,19 @@ y += vspd;
 
 //elevator
 var _elev = instance_place(x, y + vspd, obj_elevator);
-if (_elev)
-{
-	// checando se estou indo para a baixo
-	if(vspd > 0){
-		y = _elev.bbox_top +(y - bbox_bottom);
-	}
+if(global.elev == true){
+	if (_elev)
+	{
+		// checando se estou indo para a baixo
+		if(vspd > 0){
+			y = _elev.bbox_top +(y - bbox_bottom);
+		}
 	
-	// checando se estou indo para a cima
-	if(vspd < 0){
-		y = _elev.bbox_bottom + (y - bbox_top);
+		// checando se estou indo para a cima
+		if(vspd < 0){
+			y = _elev.bbox_bottom + (y - bbox_top);
+		}
+		//se eu colidir não importando o lado eu paro
+		vspd = 0;
 	}
-	//se eu colidir não importando o lado eu paro
-	vspd = 0;
 }
