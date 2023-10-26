@@ -1,4 +1,4 @@
- #region controles
+#region controles
 // controlando o Player
 var _chao = place_meeting(x,y + 1, obj_ground);
 var _left, _right, _jump;
@@ -109,6 +109,7 @@ if (keyboard_check(ord("R"))){
 	room_restart();
 
 }
+
 if(dano == true){
 	sprite_index = spr_player_dano;
 	life--;
