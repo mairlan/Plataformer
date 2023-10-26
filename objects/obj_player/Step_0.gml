@@ -107,10 +107,7 @@ if (keyboard_check(ord("K"))){
 }
 if (keyboard_check(ord("R"))){
 	room_restart();
-}
-if (keyboard_check(ord("L"))){
-	x = global.checkpoint_x;
-	y = global.checkpoint_y;
+
 }
 if(dano == true){
 	sprite_index = spr_player_dano;

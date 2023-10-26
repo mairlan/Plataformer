@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Placeholder",
-    "path": "sprites/Placeholder/Placeholder.yy",
+    "name": "Sprite48",
+    "path": "sprites/Sprite48/Sprite48.yy",
   },
   "spriteMaskId": null,
   "visible": true,
