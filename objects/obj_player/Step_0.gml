@@ -83,8 +83,8 @@ if(_chao){
 		}
 }
 #endregion
-	// dash
-	if(_dash){
+	// dash RESOLVIDO
+	if(_dash && (_left or _right)){
 		if(sign(hspd)){
 			hspd +=3.5;
 		}else {
