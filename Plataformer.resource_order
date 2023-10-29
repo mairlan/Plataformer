@@ -11,6 +11,7 @@
     {"name":"obj_serra_horizontal_ativa","order":3,"path":"objects/obj_serra_horizontal_ativa/obj_serra_horizontal_ativa.yy",},
     {"name":"spr_inimigo2_hit","order":5,"path":"sprites/spr_inimigo2_hit/spr_inimigo2_hit.yy",},
     {"name":"Sprite48","order":10,"path":"sprites/Sprite48/Sprite48.yy",},
+    {"name":"final","order":1,"path":"rooms/final/final.yy",},
     {"name":"Sprite24","order":6,"path":"sprites/Sprite24/Sprite24.yy",},
     {"name":"Sprite39","order":6,"path":"sprites/Sprite39/Sprite39.yy",},
     {"name":"Sprite40","order":7,"path":"sprites/Sprite40/Sprite40.yy",},

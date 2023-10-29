@@ -56,6 +56,7 @@
     {"id":{"name":"tl_level","path":"tilesets/tl_level/tl_level.yy",},},
     {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
+    {"id":{"name":"final","path":"rooms/final/final.yy",},},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
     {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
@@ -123,6 +124,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"final","path":"rooms/final/final.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"TEST_ROOM","path":"rooms/TEST_ROOM/TEST_ROOM.yy",},},
   ],

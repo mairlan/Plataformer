@@ -11,11 +11,15 @@ if (place_meeting(x, y, obj_player)) {
 
 var _col = instance_place(x, y, obj_parede);
 
-
+if (room==final)
+{
+hspd = 0.25
+}
 // Verifique se há colisão com a parede
 if (place_meeting(x, y + spd, obj_parede) || place_meeting(x, y - spd, obj_parede)) {
-    spd *= -1; // Inverta a direção se houver colisão com a parede
+    spd *= -1; // Inverta a direção se houvedr colisão com a parede
 }
+
 
 // Mova o objeto na direção atual
 y += spd;

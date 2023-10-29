@@ -1,4 +1,4 @@
-var _col = instance_place(x, y, obj_parede);
+ var _col = instance_place(x, y, obj_parede);
 
 
 // Verifique se há colisão com a parede
