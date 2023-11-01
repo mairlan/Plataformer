@@ -13,13 +13,9 @@ var _col = instance_place(x, y, obj_parede);
 
 
 // Verifique se há colisão com a parede
-if (place_meeting(x + spd, y, obj_parede) || place_meeting(x - spd, y, obj_parede)) {
-    spd *= -1; // Inverta a direção se houver colisão com a parede
+if(global.initial == true){
+
+	// Mova o objeto na direção atual
+	x += spd;
 }
 
-if (room==rm_final)
-{
-spd = 6.3	
-}
-// Mova o objeto na direção atual
-x += spd;

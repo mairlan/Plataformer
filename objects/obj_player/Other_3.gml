@@ -6,6 +6,10 @@ if (file_exists("checkpoint.ini"))
         file_delete("checkpoint.ini");
 }
 
+if (file_exists("checkpoint2.ini"))
+{
+        file_delete("checkpoint2.ini");
+}
 
 
 

@@ -15,6 +15,8 @@ inv_tempo = room_speed * 2;
 inv_timer = 0;
 
 global.elev = false;
+global.initial = false;
+
 
 inputs = {
 	left: ord("A"),
@@ -28,12 +30,6 @@ inventory = {
 	key: false,
 	item: false
 }
-
-
-//checkpoint
-global.checkpoint_x = x;
-global.checkpoint_y = y;
-
 
 
 

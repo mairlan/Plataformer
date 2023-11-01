@@ -11,7 +11,7 @@ if (place_meeting(x, y, obj_player)) {
 
 var _col = instance_place(x, y, obj_parede);
 
-if (room==final)
+if (room==rm_final)
 {
 hspd = 0.25
 }

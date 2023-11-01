@@ -14,8 +14,6 @@ ini_write_real("player", "y", other.y);
 ini_close();
 
 
-  
-
 
 
 

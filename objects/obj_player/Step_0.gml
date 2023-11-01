@@ -160,3 +160,10 @@ if (_inimigo && inv_timer <= 0){
 if (place_meeting(x,y, obj_next) && _next){
 	room_goto_next();
 }
+
+
+//if (room == rm_fase2 )
+//{
+//	obj_player.x = 44; 
+//	obj_player.y = 56;
+//}
