@@ -15,7 +15,13 @@ if (file_exists("checkpoint2.ini") && room == rm_fase2)
         y = ini_read_real("player", "y", y);
         ini_close();
 }
-
+if (file_exists("checkpoint3.ini") && room == rm_final)
+{
+        ini_open("checkpoint3.ini");
+        x = ini_read_real("player", "x", x);
+        y = ini_read_real("player", "y", y);
+        ini_close();
+}
 
 
 

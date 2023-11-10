@@ -8,7 +8,13 @@ if(room == rm_fase2)
 	ini_write_real("player", "y", obj_player.y);
 	ini_close();
 }
-
+if(room == rm_final)
+{
+	ini_open("checkpoint3.ini");
+	ini_write_real("player", "x", obj_player.x);
+	ini_write_real("player", "y", obj_player.y);
+	ini_close();
+}
 
 
 
