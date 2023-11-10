@@ -11,7 +11,10 @@ if (file_exists("checkpoint2.ini"))
         file_delete("checkpoint2.ini");
 }
 
-
+if (file_exists("checkpoint3.ini"))
+{
+        file_delete("checkpoint3.ini");
+}
 
 
 
